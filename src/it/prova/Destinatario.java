@@ -67,5 +67,8 @@ public class Destinatario {
 	public void setPostaDiPaese(PostaDiPaese postaDiPaese) {
 		this.postaDiPaese = postaDiPaese;
 	}
-	
+
+	public String toString() {
+		return "Destinatario: [" + nome + " " + cognome + "(" + eta + "), " + indirizzo + "," + " - conto=" + possessoreDiContoCorrente ;
+	}
 }

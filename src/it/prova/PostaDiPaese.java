@@ -60,4 +60,12 @@ public class PostaDiPaese {
 		this.destinatari = destinatari;
 	}
 	
+	public String toString() {
+		try {
+			return "Posta: [nome=" + denominazione + ", via=" + indirizzoSede + ", apertura=" + MyDate.d2s(dataApertura) + ", numDipendenti=" + numeroDipendenti + "]" ;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
 }
