@@ -49,7 +49,8 @@ public class Test {
 				.stream().flatMap(p -> p.getDestinatari().stream()).collect(Collectors.toList())
 				.stream().map(d -> d.getEta()).collect(Collectors.toList());
 		etaDestinatariPosteCentraliPrimoGennaio2000.forEach(p -> System.out.println(p));
-
+		
+		
 	}
 
 }
